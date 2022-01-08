@@ -1,0 +1,4 @@
+hostname=*.makingmoney.cn
+
+#天气
+^http://coin.makingmoney.cn:8088/task/coin url script-request-header tqyb.js

@@ -1,4 +1,7 @@
-hostname=newvideo.autohome.com.cn
+hostname=api.st615.com,newvideo.autohome.com.cn
+
+#九章
+https://api.st615.com/v2/index/benefit url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/jztt.js
 
 #闪辆
 https://newvideo.autohome.com.cn/api/homepage/detail url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/sl.js

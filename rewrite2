@@ -1,4 +1,7 @@
-hostname=*.makingmoney.cn
+hostname=newvideo.autohome.com.cn,*.makingmoney.cn
 
+#闪辆
+omepage/detail url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/sl.js
+https://newvideo.autohome.com.cn/api/video/rcmfeed url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/sl.js
 #天气
 ^http://coin.makingmoney.cn:8088/task/coin url script-request-header tqyb.js

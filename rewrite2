@@ -1,7 +1,9 @@
-hostname=campaignapi.dossen.com,api.st615.com,newvideo.autohome.com.cn
+hostname=step-money.quanxiangweilai.cn,api.st615.com,newvideo.autohome.com.cn
 
-#东呈会
-https://campaignapi.dossen.com url script-request-header https://raw.githubusercontent.com/liuqi6968/-/main/dch.js
+#走财运
+
+https://step-money.quanxiangweilai.cn/api/account/profile url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/zcy.js
+
 #九章
 https://api.st615.com/v2/index/benefit url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/jztt.js
 

@@ -1,8 +1,7 @@
-hostname=step-money.quanxiangweilai.cn,api.st615.com,newvideo.autohome.com.cn
+hostname=*.snssdk.com,api.st615.com,newvideo.autohome.com.cn
 
-#走财运
-
-https://step-money.quanxiangweilai.cn/api/account/profile url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/zcy.js
+#番茄畅听
+luckycat/novel_fm/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqctapp.js
 
 #九章
 https://api.st615.com/v2/index/benefit url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/jztt.js

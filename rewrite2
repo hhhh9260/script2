@@ -1,4 +1,8 @@
-hostname=*.snssdk.com,api.st615.com,newvideo.autohome.com.cn
+hostname=fscrm.kraftheinz.net.cn,*.snssdk.com,api.st615.com,newvideo.autohome.com.cn
+
+#卡夫
+
+https://fscrm.kraftheinz.net.cn/crm/public/index.php/api/v1/getUserInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/kfx.js
 
 #番茄畅听
 luckycat/novel_fm/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqctapp.js

@@ -1,4 +1,8 @@
-hostname=fscrm.kraftheinz.net.cn,*.snssdk.com,api.st615.com,newvideo.autohome.com.cn
+hostname=magicisland.58.com,fscrm.kraftheinz.net.cn,*.snssdk.com,api.st615.com,newvideo.autohome.com.cn
+
+
+#58
+https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js
 
 #卡夫
 

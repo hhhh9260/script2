@@ -1,8 +1,5 @@
-hostname=tybook.ios.itaoxiaoshuo.com,*.zhongchuanjukan.com,*.itaoxiaoshuo.com,*.taoyuewenhua.com,magicisland.58.com,fscrm.kraftheinz.net.cn,*.snssdk.com,api.st615.com,newvideo.autohome.com.cn
+hostname=*.zhongchuanjukan.com,*.itaoxiaoshuo.com,*.taoyuewenhua.com,magicisland.58.com,fscrm.kraftheinz.net.cn,*.snssdk.com,api.st615.com,newvideo.autohome.com.cn
 
-#淘小说
-
-/auth/interval_bonus url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/txs.js
 
 #文旅看点
 

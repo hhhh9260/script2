@@ -10,8 +10,8 @@ https://wlkdapi.zhongchuanjukan.com/home/info url script-request-body https://ra
 #http://ap.taoyuewenhua.com/ajax/lottery/wheel/draw url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/txs.js
 #https://tybook.ios.itaoxiaoshuo.com/auth/v3/rt url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/txs.js
 #58
-https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js
-
+#https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js
+https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/hhhh9260/script2/main/558(1).js
 #卡夫
 
 https://fscrm.kraftheinz.net.cn/crm/public/index.php/api/v1/getUserInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/kfx.js

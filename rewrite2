@@ -11,7 +11,7 @@ https://wlkdapi.zhongchuanjukan.com/home/info url script-request-body https://ra
 #https://tybook.ios.itaoxiaoshuo.com/auth/v3/rt url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/txs.js
 #58
 #https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js
-https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/hhhh9260/script2/main/558(1).js
+https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/hhhh9260/script2/main/558g.js
 #卡夫
 
 https://fscrm.kraftheinz.net.cn/crm/public/index.php/api/v1/getUserInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/kfx.js

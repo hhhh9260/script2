@@ -104,7 +104,9 @@ class UserInfo {
     }
     
     async doTask(sceneId,taskId) {
-        let url = `https://taskframe.58.com/web/task/dotask?timestamp=${(new Date()).getTime()}&sign=${randomString(32)}&taskId=${taskId}`//&taskData=15`
+        var time=` ${(newDate()).getTime()}`
+var signo=` $ {time}$ {taskId}
+        let url = `https://taskframe.58.com/web/task/dotask?timestamp=${(time)&sign=${MD5Encrypt(signo)}&taskId=${taskId}`//&taskData=15`
         let body = ``
         let urlObject = populateUrlObject(url,this.cookie,body)
         await httpRequest('get',urlObject)
@@ -119,7 +121,9 @@ class UserInfo {
     }
     
     async getReward(sceneId,taskId) {
-        let url = `https://taskframe.58.com/web/task/reward?timestamp=${(new Date()).getTime()}&sign=${randomString(32)}&taskId=${taskId}`
+        var time=` ${(newDate()).getTime()}`
+var signo=` $ {time}$ {taskId}
+        let url = `https://taskframe.58.com/web/task/dotask?timestamp=${(time)&sign=${MD5Encrypt(signo)}&taskId=${taskId}`//&taskData=15`
         let body = ``
         let urlObject = populateUrlObject(url,this.cookie,body)
         await httpRequest('get',urlObject)

@@ -2,7 +2,7 @@ hostname=game.xiaojukeji.com,api.kuaisho*.com,open.kuaisho*.com,club.biqr.cn,*.z
 
 #滴滴
 
-https://game.xiaojukeji.com/api/game/plant/enter url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js
+https://game.xiaojukeji.com/api/game/plant/enter url script-request-body https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js
 
 #快手
 appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/ks.js

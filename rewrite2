@@ -2,7 +2,7 @@ hostname=*.toutiaoapi.com,wzq.tenpay.com,api.kuaisho*.com,*.jk-tt.com,game.xiaoj
 
 #今日头条极速版
 
-luckycat\/lite\/v1\/task\/page_data url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js
+luckycat\/lite\/v1\/task\/page_data url script-request-header https://raw.githubusercontent.com/hhhh9260/script2/main/6jrttjsb
 
 #腾讯自选股
 https://wzq.tenpay.com/cgi-bin/.*user.*.fcgi url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js

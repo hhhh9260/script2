@@ -242,7 +242,7 @@ async function ReadArticles() {
 async function ReadArtsReward() {
     let caller = printCaller()
     let rndGroupId = Math.floor(Math.random()*7000000000000000000)
-    let url = `https://api5-normal-lf.toutiaoapi.com/luckycat/lite/v1/activity/done_whole_scene_task/?session_id=1B1ED9B4-152D-4EB7-98DE-A24AE5771E5B&version_code=8.7.4&tma_jssdk_version=2.25.0.20&app_name=news_article_lite&device_id=3158274886075469&channel=App%20Store&resolution=828*1792&aid=35&ab_version=1859936%2C668908%2C3820899%2C668905%2C3820859%2C668903%2C3820889%2C668904%2C3820838%2C668906%2C3820867%2C668907%2C3820895%2C3858189%2C3520489%2C3596061%2C3700363%2C3728655%2C3842519&ab_feature=794527&review_flag=0&ab_group=794527&subchannel=unknown&update_version_code=87420&os_version=14.6&ssmix=a&device_platform=iphone&iid=2995498582283016&ab_client=a1%2Cf2%2Cf7%2Ce1&device_type=iPhone%20XR `
+    let url = `https://api5-normal-lf.toutiaoapi.com/luckycat/lite/v1/activity/done_whole_scene_task/?session_id=1B1ED9B4-152D-4EB7-98DE-A24AE5771E5B&version_code=8.7.4&tma_jssdk_version=2.25.0.20&app_name=news_article_lite&device_id=3158274886075469&channel=App%20Store&resolution=828*1792&aid=35&ab_version=1859936%2C668908%2C3820899%2C668905%2C3820859%2C668903%2C3820889%2C668904%2C3820838%2C668906%2C3820867%2C668907%2C3820895%2C3858189%2C3520489%2C3596061%2C3700363%2C3728655%2C3842519&ab_feature=794527&review_flag=0&ab_group=794527&subchannel=unknown&update_version_code=87420&os_version=14.6&ssmix=a&device_platform=iphone&iid=2995498582283016&ab_client=a1%2Cf2%2Cf7%2Ce1&device_type=iPhone%20XR`
     let body = `{"is_golden_egg":false,"scene_key":"article_detail","group_id":"${rndGroupId}"}`
     let urlObject = populatePostUrl(url,body)
     await httpPost(urlObject,caller)

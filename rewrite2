@@ -7,8 +7,8 @@ luckycat\/lite\/v1\/task\/page_data url script-request-header https://raw.github
 https://wzq.tenpay.com/cgi-bin/.*user.*.fcgi url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js
 
 #快手极速版
-appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js
-ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js
+appsupport/yoda/biz/info url script-request-header ksjsb(1).js
+ksapp/client/package/renew url script-request-header ksjsb(1).js
 #健康头条
 
 https://app-connect.jk-tt.com/comment/comment/readEssay url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/jktt.js

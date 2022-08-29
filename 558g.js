@@ -45,7 +45,7 @@ let userIdx = 0
 let userCount = 0
 
 //let taskList = [1,2,3,4,5,6,7,9,10,13,15,16]
-let taskList = [9,10,13]
+let taskList = [9,10]
 let TASK_TIME = [7,24]
 let attendType = {'oneDay':'一天打卡', 'multiDay':'三天打卡'}
 
